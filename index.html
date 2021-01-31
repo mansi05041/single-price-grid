@@ -2,67 +2,92 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <meta charset="UTF-8">
+
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--icon-->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Single Price Grid Component</title>
+  <!--stylesheets-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+
+  <!--google fonts-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
 </head>
 
-<body>
-  <article class="portfolio">
-    <div class="center">
-      <div class="top-container">
-        <h1 class="main-heading">Join our community</h1>
+<body style="background-color:hsl(204, 43%, 93%);">
 
-        <h2 class="about">30-day, hassle-free money back guarantee</h2>
-        <pre class="info">
-   Gain access to our full library of tutorials along with expert code reviews.
-   Perfect for any developers who are serious about honing their skills.
-      </pre>
-      </div>
-      <div class="bottom">
+  <div class="container">
 
+    <!--tow row-->
 
-        <div class="bottom1">
-          <h4 style="font-size:18px;">Monthly Subscription</h4>
+    <div class="row">
 
-          <pre><span class="dollar">&dollar;29</span><span class="month"> per month</span></pre>
+      <div class="col-lg-8 top-row">
+        <h5 class="main-heading">Join our community</h5>
+        <h6 class="top-row-second-heading">30-day, hassle-free money back guarantee</h6>
 
-          <p style="position:relative;bottom:5px;">Full access for less than &dollar;1 a day</p>
-
-          <button>Sign Up</button>
+        <div class="top-row-about">
+          <p>Gain access to our full library of tutorials along with expert code reviews.
+            Perfect for any developers who are serious about honing their skills</p>
         </div>
-        <div class="bottom2">
-          <h4>Why Us</h4>
-          <pre class=why>
-Tutorials by industry experts
-Peer &amp; expert code review
-Coding exercises
-Access to our GitHub repos
-Community forum
-Flashcard decks
-New videos every week
-        </pre>
-        </div>
+
       </div>
+
     </div>
-  </article>
+
+    <!--bottow-row-->
+
+    <div class="row" style="color: #fff;">
+
+      <div class="col-lg-4 bottom-row-1">
+        <h6>Monthly Subscription</h6>
+
+        <div class="bottom-row1-about">
+          <p><span class="dollar">&dollar;29</span><span class="bottom-row1-article-styling"> per month</span></p>
+          <p style="font-size:0.85rem;">Full access for less than &dollar;1 a day</p>
+        </div>
+        <button class="btn">Sign Up</button>
+      </div>
+
+      <div class="col-lg-4 bottom-row-2">
+        <h6>Why Us</h6>
+
+        <div class="bottom-row2-about">
+          <p>Tutorials by industry experts</p>
+          <p>Peer &amp; expert code review</p>
+          <p>Coding exercises</p>
+          <p>Access to our GitHub repos</p>
+          <p>Community forum</p>
+          <p>Flashcard decks</p>
+          <p>New videos every week</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--footer-->
+
   <footer>
-    <br>
-    <br>
-    <br>
+
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://www.linkedin.com/in/mansi-joshi-663aa81a0/">Mansi Joshi</a>.
     </p>
+
   </footer>
+
 </body>
 
 </html>
